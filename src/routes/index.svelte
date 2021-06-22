@@ -3,13 +3,14 @@
   import Client from '$lib/client.js';
   
   export async function load({ fetch, session })  {
-    const client = Client(fetch, session)
+    const client = Client(session, fetch)
     const allDocs = await client.getAll()
-    return allDocs
+    return { props: { allDocs }}
   }
 </script>
 
 <script>
+
   export let allDocs;
 </script>
 

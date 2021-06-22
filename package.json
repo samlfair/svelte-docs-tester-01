@@ -10,6 +10,7 @@
     "@prismicio/client": "^6.0.0-alpha.2",
     "@prismicio/helpers": "^2.0.0-alpha.0",
     "@sveltejs/kit": "next",
+    "isomorphic-unfetch": "^3.1.0",
     "svelte": "^3.34.0"
   },
   "type": "module"
