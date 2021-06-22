@@ -16,7 +16,9 @@
   getData()
 </script>
 
-<h2>Client Data</h2>
+<h1>Client-side fetching</h1>
+<a href="/">Back to home</a>
+<h2>Prismic/client data</h2>
 <pre>{JSON.stringify(clientData, null, 2)}</pre>
-<h2>Fetch Data</h2>
+<h2>Native fetch data</h2>
 <pre>{JSON.stringify(fetchData, null, 2)}</pre>

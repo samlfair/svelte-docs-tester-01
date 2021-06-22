@@ -15,4 +15,5 @@
 </script>
 
 <h1>Welcome to SvelteKit</h1>
+<a href="/clientside">Check out the client-side fetching</a>
 <pre>{JSON.stringify(allDocs,null,2)}</pre>
