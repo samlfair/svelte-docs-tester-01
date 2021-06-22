@@ -1,2 +1,17 @@
+  
+<script context="module">
+  import Client from '$lib/client.js';
+  
+  export async function load({ fetch, session })  {
+    const client = Client(fetch, session)
+    const allDocs = await client.getAll()
+    return allDocs
+  }
+</script>
+
+<script>
+  export let allDocs;
+</script>
+
 <h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<pre>{JSON.stringify(allDocs,null,2)}</pre>
