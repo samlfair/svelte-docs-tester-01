@@ -10,7 +10,8 @@ const Client = (session, fetch) => {
       // cookie,
     },
   }
-  const client = createClient(endpoint, { fetch, req })
+  // const client = createClient(endpoint, { fetch, req })
+  const client = createClient(endpoint)
   return client
 }
 
