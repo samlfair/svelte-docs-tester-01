@@ -1,5 +1,5 @@
 <script>
-  import Client from '$lib/client.js';
+import { Client } from '$lib/prismic.js';
 
   const client = Client(null, fetch)
   // const promise = client.getAll()

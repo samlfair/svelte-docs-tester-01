@@ -1,6 +1,6 @@
   
 <script context="module">
-  import Client from '$lib/client.js';
+  import { Client } from '$lib/prismic.js';
   
   export async function load({ fetch, session })  {
     const client = Client(session, fetch)
