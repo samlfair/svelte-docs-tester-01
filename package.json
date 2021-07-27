@@ -11,6 +11,7 @@
     "@prismicio/helpers": "^2.0.0-alpha.5",
     "@sveltejs/kit": "next",
     "isomorphic-unfetch": "^3.1.0",
+    "magic-string": "^0.25.7",
     "svelte": "^3.34.0"
   },
   "type": "module"

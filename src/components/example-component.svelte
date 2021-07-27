@@ -1,5 +1,5 @@
 <script>
-import { Client } from '$lib/prismic.js';
+// import { Client } from '$lib/prismic.js';
 
   const client = Client(null, fetch)
   // const promise = client.getAll()
@@ -16,4 +16,5 @@ import { Client } from '$lib/prismic.js';
   getData()
 </script>
 
-<pre>{JSON.stringify(data, null, 2)}</pre>
+<h2>Example Component</h2>
+<!-- <pre>{JSON.stringify(data, null, 2)}</pre> -->

@@ -1,5 +1,5 @@
 <script>
-  import { Client } from '$lib/prismic.js';
+  // import { Client } from '$lib/prismic.js';
   
   const client = Client(null, fetch)
   
